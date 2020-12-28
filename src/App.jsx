@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from './header/index';
-import News from './News/index';
+import News from './news/index';
 import Sources from './sources/index';
 
 import './assets/styles/tailwind.output.css';
