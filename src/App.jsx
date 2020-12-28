@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from './header/index';
+import News from './News/index';
 import Sources from './sources/index';
 
 import './assets/styles/tailwind.output.css';
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <main className="flex">
         <Sources />
+        <News />
       </main>
     </div>
   );
