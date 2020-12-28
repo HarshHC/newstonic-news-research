@@ -8,9 +8,9 @@ import './assets/styles/tailwind.output.css';
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col h-screen">
       <Header />
-      <main className="flex">
+      <main className="flex flex-grow">
         <Sources />
         <News />
       </main>

@@ -3,7 +3,7 @@ import NewsItem from './NewsItem';
 
 const NewsGallery = () => {
   return (
-    <div className="content-start flex flex-wrap h-screen overflow-y-scroll p-8 w-full">
+    <div className="content-start flex flex-grow flex-wrap overflow-y-scroll p-8 w-full">
       <NewsItem />
       <NewsItem />
       <NewsItem />
