@@ -4,7 +4,7 @@ import { HeaderContainer } from './components/layout/header';
 function App() {
   return (
     <>
-      <HeaderContainer />
+      <HeaderContainer text="Newstonic" />
     </>
   );
 }
