@@ -1,10 +1,11 @@
 import React from 'react';
-import { HeaderContainer } from './components/layout/header';
+import { HeaderContainer, MainContainer } from './components/layout';
 
 function App() {
   return (
     <>
       <HeaderContainer text="Newstonic" />
+      <MainContainer />
     </>
   );
 }
