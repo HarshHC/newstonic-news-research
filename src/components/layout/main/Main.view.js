@@ -3,7 +3,7 @@ import { Grid } from '@chakra-ui/react';
 import Sources from '../../sources';
 
 const MainView = () => (
-  <Grid templateColumns="1fr 2fr">
+  <Grid w="100%" h="100%" templateColumns="1fr 2fr">
     <Sources />
     <div>hello</div>
   </Grid>
