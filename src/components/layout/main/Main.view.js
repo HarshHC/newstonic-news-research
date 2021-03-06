@@ -1,9 +1,10 @@
 import React from 'react';
 import { Grid } from '@chakra-ui/react';
+import { SideNavbarContainer } from '../side-navbar';
 
 const MainView = () => (
   <Grid templateColumns="1fr 2fr">
-    <div>hi</div>
+    <SideNavbarContainer />
     <div>hello</div>
   </Grid>
 );
