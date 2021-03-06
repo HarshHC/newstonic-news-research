@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from '@chakra-ui/react';
-import { focus, active, hover } from './side-navbar-item.setting';
+import { focus, active, hover } from './SourceItem.setting';
 
-const SideNavbarItemView = ({ sourceName, onClick }) => {
+const SourceItemView = ({ sourceName, onClick }) => {
   return (
     <Button
       _focus={focus}
@@ -20,9 +20,9 @@ const SideNavbarItemView = ({ sourceName, onClick }) => {
   );
 };
 
-SideNavbarItemView.propTypes = {
+SourceItemView.propTypes = {
   sourceName: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
 };
 
-export default SideNavbarItemView;
+export default SourceItemView;

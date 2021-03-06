@@ -1,11 +1,11 @@
 import React from 'react';
-import { HeaderContainer, MainContainer } from './components/layout';
+import { Header, Main } from './components/layout';
 
 function App() {
   return (
     <>
-      <HeaderContainer text="Newstonic" />
-      <MainContainer />
+      <Header text="Newstonic" />
+      <Main />
     </>
   );
 }
