@@ -4,7 +4,7 @@ import { Header, Main } from './components/layout';
 
 function App() {
   return (
-    <Box w="100vw" h="100vh">
+    <Box w="100%" h="100vh">
       <Header text="Newstonic" />
       <Main />
     </Box>
